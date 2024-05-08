@@ -1,24 +1,23 @@
-/* Resetting default margin and padding */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* General styles */
+
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4; /* Light background */
-    color: #333; /* Dark text */
+    background-color: #f4f4f4; 
+    color: #333; 
 }
 
 .container {
     width: 80%;
     margin: 0 auto;
+    
 }
 
-/* Styling header */
 header {
     background-color: #333;
     color: #fff;
@@ -38,8 +37,12 @@ header nav ul li a {
     color: #fff;
     text-decoration: none;
 }
+header h1{
+    font-family: "Sofia", sans-serif;
+    font-size: 45px;
+}
 
-/* Styling hero section */
+
 .hero {
     background-image: url('https://i.pinimg.com/564x/65/7d/0c/657d0c01845275877f84b22903a8a35b.jpg');
     background-size: cover;
@@ -50,16 +53,20 @@ header nav ul li a {
 
 .dish img {
     display: block;
-    margin: 0 auto 20px; /* Center image */
-    width: 200px; /* Adjust the width */
-    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto 20px; 
+    width: 200px; 
+    height: auto; 
 } 
-
+.dish-container{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
 .hero h2 {
     font-size: 3em;
 }
 
-/* Styling menu section */
+
 .menu {
     padding: 50px 0;
 }
@@ -75,10 +82,10 @@ header nav ul li a {
 
 .menu .dish img {
     display: block;
-    margin: 0 auto 20px; /* Center image */
+    margin: 0 auto 20px;
 }
 
-/* Styling reservation section */
+
 .reservation {
     background-color: #f4f4f4;
     padding: 50px 0;
@@ -110,7 +117,6 @@ header nav ul li a {
     cursor: pointer;
 }
 
-/* Styling footer */
 footer {
     background-color: #333;
     color: #fff;
